@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Пользовательский интерфейс" id="ui-v2">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Пользовательский интерфейс Danil AI 2.0" style="text;html=1;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none" vertex="1" parent="1"><mxGeometry x="270" y="30" width="620" height="40" as="geometry"/></mxCell>
+        <mxCell id="3" value="Главное окно&#xa;AIAssistant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontStyle=1" vertex="1" parent="1"><mxGeometry x="430" y="90" width="300" height="90" as="geometry"/></mxCell>
+        <mxCell id="4" value="Левая панель&#xa;диалоги и настройки" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="80" y="280" width="240" height="70" as="geometry"/></mxCell>
+        <mxCell id="5" value="Список диалогов&#xa;создать, удалить, выбрать" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="80" y="430" width="240" height="70" as="geometry"/></mxCell>
+        <mxCell id="6" value="Верхняя панель&#xa;выбор модели и очистка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="460" y="280" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="7" value="Область сообщений&#xa;история текущего диалога" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="460" y="430" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="8" value="Панель ввода&#xa;текст и кнопка Отправить" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="830" y="280" width="270" height="70" as="geometry"/></mxCell>
+        <mxCell id="9" value="Окно настроек&#xa;OpenAI API-ключ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="830" y="430" width="270" height="70" as="geometry"/></mxCell>
+        <mxCell id="10" value="Горячие клавиши&#xa;Ctrl+Enter, Ctrl+N" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="460" y="610" width="260" height="60" as="geometry"/></mxCell>
+        <mxCell id="11" edge="1" parent="1" source="3" target="4" style="endArrow=block;html=1;rounded=1;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="12" edge="1" parent="1" source="4" target="5" style="endArrow=block;html=1;rounded=0;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="13" edge="1" parent="1" source="3" target="6" style="endArrow=block;html=1;rounded=1;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="14" edge="1" parent="1" source="6" target="7" style="endArrow=block;html=1;rounded=0;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="15" edge="1" parent="1" source="3" target="8" style="endArrow=block;html=1;rounded=1;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="16" edge="1" parent="1" source="4" target="9" style="endArrow=block;html=1;rounded=1;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="17" edge="1" parent="1" source="8" target="10" style="endArrow=block;html=1;rounded=1;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Внутренняя логика" id="logic-v2">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="102" value="Внутренняя логика Danil AI 2.0" style="text;html=1;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none" vertex="1" parent="1"><mxGeometry x="330" y="30" width="520" height="40" as="geometry"/></mxCell>
+        <mxCell id="103" value="Запуск danilAi.py" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16" vertex="1" parent="1"><mxGeometry x="470" y="80" width="190" height="70" as="geometry"/></mxCell>
+        <mxCell id="104" value="ChatDatabase&#xa;создание таблиц SQLite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="420" y="190" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="105" value="AIAssistant&#xa;создание интерфейса" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="420" y="300" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="106" value="Выбор действия пользователя" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="465" y="430" width="210" height="120" as="geometry"/></mxCell>
+        <mxCell id="107" value="Новый / удалить / выбрать диалог&#xa;операции с SQLite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="90" y="630" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="108" value="Отправка сообщения&#xa;сохранить user в SQLite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="430" y="630" width="290" height="70" as="geometry"/></mxCell>
+        <mxCell id="109" value="AIEngine&#xa;OpenAI API или Ollama" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="790" y="600" width="220" height="120" as="geometry"/></mxCell>
+        <mxCell id="110" value="Показать ответ&#xa;и сохранить assistant в SQLite" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=14" vertex="1" parent="1"><mxGeometry x="760" y="750" width="300" height="70" as="geometry"/></mxCell>
+        <mxCell id="111" edge="1" parent="1" source="103" target="104" style="endArrow=block;html=1;rounded=0;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="112" edge="1" parent="1" source="104" target="105" style="endArrow=block;html=1;rounded=0;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="113" edge="1" parent="1" source="105" target="106" style="endArrow=block;html=1;rounded=0;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="114" edge="1" parent="1" source="106" target="107" style="endArrow=block;html=1;rounded=1;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="115" edge="1" parent="1" source="106" target="108" style="endArrow=block;html=1;rounded=1;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="116" edge="1" parent="1" source="108" target="109" style="endArrow=block;html=1;rounded=0;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="117" edge="1" parent="1" source="109" target="110" style="endArrow=block;html=1;rounded=0;strokeColor=#000000"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
